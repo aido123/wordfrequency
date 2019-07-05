@@ -1,4 +1,4 @@
-# Top Wikipedia Word Frequency Counter
+# Top Wikipedia Page Word Frequency Counter
 
 ![version-image][version-image]
 
@@ -30,13 +30,21 @@ Top 5 words:
 ### Running Instructions
 
 1. Install the pip module into your python library.
+
    pip3 install wordfrequency/
+
 2. Export your PATH env to pick up the alias wiki when running the python module form your machine
+
    export PATH=~/.local/bin:$PATH
+
 3. Run the wiki command
+
    wiki --page_id=21721040 --n=5
+
 OR
-4. Run the python module command. Navigate into wordfrequency and Run.
+
+1. Run the python module command. Navigate into wordfrequency and Run.
+
    python3 -m wordfrequency.main --page_id=21721040 --n=5
 
 ## Uninstall
@@ -45,6 +53,7 @@ pip3 uninstall wiki-page-work-frequency
 
 ### Parameters
 *page_id* - wikipedia page id
+
 *n* - the top number of words to display
 
 ## Development
