@@ -1,5 +1,8 @@
-from wordfrequency.wikipage import get_page_text
-from wordfrequency.wordfrequency import count_words,top_words,format
+from wordfrequency.page import Page
+from wordfrequency.wordfrequencyoutput import WordFrequencyOutput
+from wordfrequency.wordfrequency import WordFrequency
+from wordfrequency.factoryproducer import FactoryProducer
+
 import argparse
 import sys
 from termcolor import cprint
@@ -8,6 +11,8 @@ import logging
 import logging.config
 
 logger = logging.getLogger(__name__)
+
+WORKDAY_TYPE = "workday"
 
 """
 Entry point module for Top Wiki Pae Word Frequency Counter.
@@ -40,8 +45,16 @@ def main():
     try:
         #Parse command line args
         args = parse_args(sys.argv[1:])
+
+        #Get our page, wordfrequency and wordfrequencyouts impl's using a factory implementation
+        factory = FactoryProducer().get_factory(WORKDAY_TYPE)
+        page = factory.create_page(args.page_id)
+        wordfrequency = factory.create_word_frequency(page.get_page_text(), args.n)
+        wordfrequencyoutput = factory.create_word_frequency_output(wordfrequency.top_words(), args.n)
+
         #print the format of the top words after we count all the words in the wiki page
-        print(format(top_words(count_words(get_page_text(args.page_id)),int(args.n)), args.n))
+        print(wordfrequencyoutput.format())
+
     except WikiException as exp:
         cprint("Exception {}. Exiting".format(str(exp)), "red")
         logger.fatal("Exception {}. Exiting".format(str(exp)))

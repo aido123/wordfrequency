@@ -1,4 +1,5 @@
-from wordfrequency.wikipage import get_page_text
+from wordfrequency.wikipage import WikiPage
+
 from wordfrequency.exception import WikiException
 from unittest import TestCase
 from requests.models import Response
@@ -16,7 +17,8 @@ class TestWikiPage(TestCase):
     @mock.patch('requests.get', side_effect=mocked_requests_get_200)
     def test_get_page(self, mockget):
         expected = '{"text": "this contains loads of text"}'
-        output = get_page_text(88)
+        wikipage = WikiPage(88)
+        output = wikipage.get_page_text()
         self.assertEqual(output, expected)
 
     def mocked_requests_get_401(*args, **kwargs):
@@ -29,7 +31,8 @@ class TestWikiPage(TestCase):
     def test_get_page_exception_401(self, mockget):
 
         try:
-            output = get_page_text(401401)
+            wikipage = WikiPage(401401)
+            wikipage.get_page_text()
             assert False
         except WikiException:
             assert True

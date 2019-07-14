@@ -1,0 +1,162 @@
+16:09:04,632 __main__ INFO Parsing Arguments
+16:09:04,634 __main__ DEBUG Arguments Namespace(n='5', page_id='21721040')
+16:09:04,634 wordfrequency.wikipage INFO Get Page Text
+16:09:04,634 wordfrequency.wikipage DEBUG Page ID: 21721040
+16:09:04,640 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): en.wikipedia.org
+16:09:06,956 urllib3.connectionpool DEBUG https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=extracts&pageids=21721040&explaintext&format=json HTTP/1.1" 200 None
+16:09:07,14 wordfrequency.wordfrequency INFO Counting Words}
+16:09:07,16 wordfrequency.wordfrequency INFO Counting Top Words
+16:09:07,16 wordfrequency.wordfrequency DEBUG Counting Top 5 Words
+16:09:07,16 wordfrequency.wordfrequency INFO Formatting Top Words
+16:21:36,649 __main__ INFO Parsing Arguments
+16:21:36,650 __main__ DEBUG Arguments Namespace(n='5', page_id='21721040')
+16:21:36,651 wordfrequency.wikipage INFO Get Page Text
+16:21:36,651 wordfrequency.wikipage DEBUG Page ID: 21721040
+16:21:36,657 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): en.wikipedia.org
+16:21:38,505 urllib3.connectionpool DEBUG https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=extracts&pageids=21721040&explaintext&format=json HTTP/1.1" 200 None
+16:21:38,549 wordfrequency.wordfrequency INFO Counting Words}
+16:21:38,550 wordfrequency.wordfrequency INFO Counting Top Words
+16:21:38,551 wordfrequency.wordfrequency DEBUG Counting Top 5 Words
+16:21:38,551 wordfrequency.wordfrequency INFO Formatting Top Words
+16:29:42,391 __main__ INFO Parsing Arguments
+16:29:42,401 __main__ DEBUG Arguments Namespace(n='5', page_id='21721040')
+16:29:42,401 wordfrequency.wikipage INFO Get Page Text
+16:29:42,401 wordfrequency.wikipage DEBUG Page ID: 21721040
+16:29:42,401 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): en.wikipedia.org
+16:29:43,571 urllib3.connectionpool DEBUG https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=extracts&pageids=21721040&explaintext&format=json HTTP/1.1" 200 None
+16:29:43,571 wordfrequency.wordfrequency INFO Counting Words}
+16:29:43,571 wordfrequency.wordfrequency INFO Counting Top Words
+16:29:43,581 wordfrequency.wordfrequency DEBUG Counting Top 5 Words
+16:29:43,581 wordfrequency.wordfrequency INFO Formatting Top Words
+16:45:08,706 __main__ INFO Parsing Arguments
+16:45:08,709 __main__ DEBUG Arguments Namespace(n='5', page_id='21721040')
+16:45:08,709 wordfrequency.wikipage INFO Get Page Text
+16:45:08,709 wordfrequency.wikipage DEBUG Page ID: 21721040
+16:45:08,715 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): en.wikipedia.org
+16:45:09,237 urllib3.connectionpool DEBUG https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=extracts&pageids=21721040&explaintext&format=json HTTP/1.1" 200 None
+16:45:09,243 wordfrequency.wordfrequency INFO Counting Words}
+16:45:09,245 wordfrequency.wordfrequency INFO Counting Top Words
+16:45:09,245 wordfrequency.wordfrequency DEBUG Counting Top 5 Words
+16:45:09,246 wordfrequency.wordfrequency INFO Formatting Top Words
+16:56:58,565 __main__ INFO Parsing Arguments
+16:56:58,566 __main__ DEBUG Arguments Namespace(n='5', page_id='21721040')
+16:56:58,566 wordfrequency.wikipage INFO Get Page Text
+16:56:58,567 wordfrequency.wikipage DEBUG Page ID: 21721040
+16:56:58,569 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): en.wikipedia.org
+16:57:00,405 urllib3.connectionpool DEBUG https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=extracts&pageids=21721040&explaintext&format=json HTTP/1.1" 200 None
+16:57:00,439 wordfrequency.wordfrequency INFO Counting Words}
+16:57:00,440 wordfrequency.wordfrequency INFO Counting Top Words
+16:57:00,440 wordfrequency.wordfrequency DEBUG Counting Top 5 Words
+16:57:00,441 wordfrequency.wordfrequency INFO Formatting Top Words
+17:32:29,578 __main__ INFO Parsing Arguments
+17:32:29,580 __main__ DEBUG Arguments Namespace(n='5', page_id='21721040')
+17:32:29,581 wordfrequency.wikipage INFO Get Page Text
+17:32:29,581 wordfrequency.wikipage DEBUG Page ID: 21721040
+17:32:29,588 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): en.wikipedia.org
+17:32:30,208 urllib3.connectionpool DEBUG https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=extracts&pageids=21721040&explaintext&format=json HTTP/1.1" 200 None
+17:32:30,232 wordfrequency.wordfrequency INFO Counting Words}
+17:32:30,234 wordfrequency.wordfrequency INFO Counting Top Words
+17:32:30,234 wordfrequency.wordfrequency DEBUG Counting Top 5 Words
+17:32:30,234 wordfrequency.wordfrequency INFO Formatting Top Words
+19:50:43,436 __main__ INFO Parsing Arguments
+19:50:43,451 __main__ DEBUG Arguments Namespace(n=5, page_id='21721040')
+19:50:43,451 wordfrequency.wikipage INFO Get Page Text
+19:50:43,451 wordfrequency.wikipage DEBUG Page ID: 21721040
+19:50:43,458 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): en.wikipedia.org
+19:50:43,804 urllib3.connectionpool DEBUG https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=extracts&pageids=21721040&explaintext&format=json HTTP/1.1" 200 3178
+19:50:43,810 wordfrequency.wordfrequency INFO Counting Words}
+19:50:43,812 wordfrequency.wordfrequency INFO Counting Top Words
+19:50:43,813 wordfrequency.wordfrequency DEBUG Counting Top 5 Words
+19:50:43,813 wordfrequency.wordfrequency INFO Formatting Top Words
+20:19:27,79 __main__ INFO Parsing Arguments
+20:19:27,83 __main__ DEBUG Arguments Namespace(n=5, page_id='21721040')
+20:19:27,83 wordfrequency.wikipage INFO Get Page Text
+20:19:27,83 wordfrequency.wikipage DEBUG Page ID: 21721040
+20:19:27,91 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): en.wikipedia.org
+20:19:27,441 urllib3.connectionpool DEBUG https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=extracts&pageids=21721040&explaintext&format=json HTTP/1.1" 200 None
+20:19:27,447 wordfrequency.workdaywordfrequency INFO Counting Top Words
+20:19:27,448 wordfrequency.workdaywordfrequency DEBUG Counting Top 5 Words
+20:19:27,448 wordfrequency.workdaywordfrequency INFO Counting Words}
+20:19:27,450 wordfrequency.workdaywordfrequencyoutput INFO Formatting Top Words
+20:19:50,121 __main__ INFO Parsing Arguments
+20:19:50,125 __main__ DEBUG Arguments Namespace(n=5, page_id='21721040')
+20:19:50,125 wordfrequency.wikipage INFO Get Page Text
+20:19:50,125 wordfrequency.wikipage DEBUG Page ID: 21721040
+20:19:50,132 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): en.wikipedia.org
+20:19:50,480 urllib3.connectionpool DEBUG https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=extracts&pageids=21721040&explaintext&format=json HTTP/1.1" 200 None
+20:19:50,486 wordfrequency.workdaywordfrequency INFO Counting Top Words
+20:19:50,487 wordfrequency.workdaywordfrequency DEBUG Counting Top 5 Words
+20:19:50,487 wordfrequency.workdaywordfrequency INFO Counting Words}
+20:19:50,490 wordfrequency.workdaywordfrequencyoutput INFO Formatting Top Words
+20:42:31,853 __main__ INFO Parsing Arguments
+20:42:31,857 __main__ DEBUG Arguments Namespace(n=5, page_id='21721040')
+20:43:10,529 __main__ INFO Parsing Arguments
+20:43:10,533 __main__ DEBUG Arguments Namespace(n=5, page_id='21721040')
+20:44:34,393 __main__ INFO Parsing Arguments
+20:44:34,396 __main__ DEBUG Arguments Namespace(n=5, page_id='21721040')
+20:44:34,396 wordfrequency.wikipage INFO Get Page Text
+20:44:34,397 wordfrequency.wikipage DEBUG Page ID: 21721040
+20:44:34,404 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): en.wikipedia.org
+20:44:34,761 urllib3.connectionpool DEBUG https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=extracts&pageids=21721040&explaintext&format=json HTTP/1.1" 200 None
+20:44:34,767 wordfrequency.workdaywordfrequency INFO Counting Top Words
+20:44:34,767 wordfrequency.workdaywordfrequency DEBUG Counting Top 5 Words
+20:44:34,768 wordfrequency.workdaywordfrequency INFO Counting Words}
+20:44:34,770 wordfrequency.workdaywordfrequencyoutput INFO Formatting Top Words
+20:45:41,280 __main__ INFO Parsing Arguments
+20:45:41,283 __main__ DEBUG Arguments Namespace(n=5, page_id='21721040')
+20:45:41,284 wordfrequency.wikipage INFO Get Page Text
+20:45:41,284 wordfrequency.wikipage DEBUG Page ID: 21721040
+20:45:41,291 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): en.wikipedia.org
+20:45:41,747 urllib3.connectionpool DEBUG https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=extracts&pageids=21721040&explaintext&format=json HTTP/1.1" 200 None
+20:45:41,753 wordfrequency.workdaywordfrequency INFO Counting Top Words
+20:45:41,754 wordfrequency.workdaywordfrequency DEBUG Counting Top 5 Words
+20:45:41,754 wordfrequency.workdaywordfrequency INFO Counting Words}
+20:45:41,756 wordfrequency.workdaywordfrequencyoutput INFO Formatting Top Words
+21:33:02,945 __main__ INFO Parsing Arguments
+21:33:02,948 __main__ DEBUG Arguments Namespace(n=5, page_id='21721040')
+21:33:02,948 wordfrequency.wikipage INFO Get Page Text
+21:33:02,948 wordfrequency.wikipage DEBUG Page ID: 21721040
+21:33:02,956 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): en.wikipedia.org
+21:33:03,299 urllib3.connectionpool DEBUG https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=extracts&pageids=21721040&explaintext&format=json HTTP/1.1" 200 None
+21:33:03,305 wordfrequency.workdaywordfrequency INFO Counting Top Words
+21:33:03,306 wordfrequency.workdaywordfrequency DEBUG Counting Top 5 Words
+21:33:03,306 wordfrequency.workdaywordfrequency INFO Counting Words}
+21:33:03,308 wordfrequency.workdaywordfrequencyoutput INFO Formatting Top Words
+21:34:19,852 __main__ INFO Parsing Arguments
+21:34:19,854 __main__ DEBUG Arguments Namespace(n=5, page_id='21721040')
+21:34:19,855 wordfrequency.wikipage INFO Get Page Text
+21:34:19,855 wordfrequency.wikipage DEBUG Page ID: 21721040
+21:34:19,861 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): en.wikipedia.org
+21:34:20,159 urllib3.connectionpool DEBUG https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=extracts&pageids=21721040&explaintext&format=json HTTP/1.1" 200 3178
+21:34:20,165 wordfrequency.workdaywordfrequency INFO Counting Top Words
+21:34:20,166 wordfrequency.workdaywordfrequency DEBUG Counting Top 5 Words
+21:34:20,166 wordfrequency.workdaywordfrequency INFO Counting Words}
+21:34:20,168 wordfrequency.workdaywordfrequencyoutput INFO Formatting Top Words
+21:34:38,458 __main__ INFO Parsing Arguments
+21:34:38,462 __main__ DEBUG Arguments Namespace(n='8', page_id='21721040')
+21:34:38,462 wordfrequency.wikipage INFO Get Page Text
+21:34:38,462 wordfrequency.wikipage DEBUG Page ID: 21721040
+21:34:38,470 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): en.wikipedia.org
+21:34:38,780 urllib3.connectionpool DEBUG https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=extracts&pageids=21721040&explaintext&format=json HTTP/1.1" 200 None
+21:34:38,786 wordfrequency.workdaywordfrequency INFO Counting Top Words
+21:34:38,786 wordfrequency.workdaywordfrequency DEBUG Counting Top 8 Words
+21:34:38,786 wordfrequency.workdaywordfrequency INFO Counting Words}
+21:34:52,597 __main__ INFO Parsing Arguments
+21:34:52,602 __main__ DEBUG Arguments Namespace(n='3', page_id='21721040')
+21:34:52,602 wordfrequency.wikipage INFO Get Page Text
+21:34:52,603 wordfrequency.wikipage DEBUG Page ID: 21721040
+21:34:52,611 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): en.wikipedia.org
+21:34:52,933 urllib3.connectionpool DEBUG https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=extracts&pageids=21721040&explaintext&format=json HTTP/1.1" 200 None
+21:34:52,940 wordfrequency.workdaywordfrequency INFO Counting Top Words
+21:34:52,940 wordfrequency.workdaywordfrequency DEBUG Counting Top 3 Words
+21:34:52,940 wordfrequency.workdaywordfrequency INFO Counting Words}
+21:37:58,719 __main__ INFO Parsing Arguments
+21:37:58,723 __main__ DEBUG Arguments Namespace(n='3', page_id='21721040')
+21:37:58,723 wordfrequency.wikipage INFO Get Page Text
+21:37:58,723 wordfrequency.wikipage DEBUG Page ID: 21721040
+21:37:58,731 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): en.wikipedia.org
+21:37:59,70 urllib3.connectionpool DEBUG https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=extracts&pageids=21721040&explaintext&format=json HTTP/1.1" 200 3178
+21:37:59,76 wordfrequency.workdaywordfrequency INFO Counting Top Words
+21:37:59,77 wordfrequency.workdaywordfrequency DEBUG Counting Top 3 Words
+21:37:59,77 wordfrequency.workdaywordfrequency INFO Counting Words}
+21:37:59,79 wordfrequency.workdaywordfrequencyoutput INFO Formatting Top Words
