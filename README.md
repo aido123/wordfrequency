@@ -65,7 +65,7 @@ pip3 uninstall wiki-page-work-frequency
 
 ## Development
 
-Use you preferred IDE and import Python module.
+Use you preferred IDE and import Python module. I prefer VSCode. Install the python exentions and have python and pip installed on your machine and off you go.
 
 ### Testing
 
@@ -73,13 +73,22 @@ Use you preferred IDE and import Python module.
 python3 -m pytest wordfrequency/wordfrequency/test/
 
 ## Features
-* 0.0.1 Bla bla bla
+* 0.0.2 Refactor to use design patterns to make the code more extensible
+* 0.0.1 First beta release of Workday Frequency Counter
 
 ## Contributing
-This is info on how you can contribute bla bla bla
+If you would like to contribute a different Frequency Counter implementation, you can do the following
+- Extend the page, workfrequency and wordfrequencyoutput base classes with your own implementation.
+- Extend the abstract factory with your own factory implementation creating your own classes from above
+- Update the Factory Producer for your type
+- Implement your client to use the Factory Producer to create your classes
+- Add unit tests to cover your new code > 85%
+- Fix any Linting issues
+- Update the Readme.md with your new implementation
+- Create a Pull Request
 
 ## UML
 ![uml-image][uml-image]
 
-[version-image]: https://img.shields.io/badge/version-0.0.1-green.svg?style=plastic
+[version-image]: https://img.shields.io/badge/version-0.0.2-green.svg?style=plastic
 [uml-image]: UML.jpeg

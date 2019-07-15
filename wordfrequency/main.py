@@ -1,3 +1,6 @@
+"""
+Copyright (C) 2019 Adrian Hynes <adrianhynes@gmail.com>
+"""
 from wordfrequency.page import Page
 from wordfrequency.wordfrequencyoutput import WordFrequencyOutput
 from wordfrequency.wordfrequency import WordFrequency
@@ -10,7 +13,7 @@ from wordfrequency.exception import WikiException
 import logging
 import logging.config
 
-logger = logging.getLogger(__name__)
+LOGGER = logging.getLogger(__name__)
 
 WORKDAY_TYPE = "workday"
 
@@ -26,7 +29,7 @@ def parse_args(args):
     Returns:
         str: Parsed Arguments.
     """
-    logger.info("Parsing Arguments")
+    LOGGER.info("Parsing Arguments")
     parser = argparse.ArgumentParser()
     parser.add_argument('--page_id', help='Wiki Page ID', required=True)
     parser.add_argument('--n', help='Top n item to return. Defaults to 5.', required=False)
@@ -35,7 +38,7 @@ def parse_args(args):
     if parsed_args.n is None:
         parsed_args.n = 5
 
-    logger.debug("Arguments {}".format(parsed_args))
+    LOGGER.debug("Arguments {}".format(parsed_args))
     return parsed_args
 
 def main():
@@ -46,7 +49,7 @@ def main():
         #Parse command line args
         args = parse_args(sys.argv[1:])
 
-        #Get our page, wordfrequency and wordfrequencyouts impl's using a factory implementation
+        #Get our page, wordfrequency and wordfrequencyouts impl's using a factory producer implementation.
         factory = FactoryProducer().get_factory(WORKDAY_TYPE)
         page = factory.create_page(args.page_id)
         wordfrequency = factory.create_word_frequency(page.get_page_text(), args.n)
@@ -57,7 +60,7 @@ def main():
 
     except WikiException as exp:
         cprint("Exception {}. Exiting".format(str(exp)), "red")
-        logger.fatal("Exception {}. Exiting".format(str(exp)))
+        LOGGER.fatal("Exception {}. Exiting".format(str(exp)))
         sys.exit(1)
 if __name__ == '__main__':
 
