@@ -22,6 +22,8 @@ class WorkdayWordFrequency(WordFrequency):
         :return: returns list of (word, count) tuples
         """
         LOGGER.info("Counting Words}")
+
+        #Use the regex \b word boundary with the pattern we want in between.
         four_char_words = re.findall(r"\b[a-zA-Z]{4,}\b", self.text)
         return Counter(four_char_words).items()
 
@@ -45,7 +47,7 @@ class WorkdayWordFrequency(WordFrequency):
         top_numbers_frequency = islice(numbers_frequency, int(self.n))
 
         #Iterate sorted set and word list and extract word,freq. Words with the same freq
-        #will be added to next list
+        #will be added to next list. Complexity: O(amount of top words * all words)
         top_words = []
         for number in top_numbers_frequency:
             same_freq = []
