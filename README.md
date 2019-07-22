@@ -91,9 +91,10 @@ If you would like to contribute a different Frequency Counter implementation, yo
 ![uml-image][uml-image]
 
 ## Upcoming Updates/Features for GA
+- WordFrequency and WordFrequencyOutput init to use Page and WordFrequency respectively
 - Add Title to Output
 - Add URL to output
-- WordFrequency and WordFrequencyOutput init to use Page and WordFrequency respectively
+- Add Ability for different input methods (REST/CLI)
 
 [version-image]: https://img.shields.io/badge/version-0.0.2-green.svg?style=plastic
 [uml-image]: UML.jpeg
